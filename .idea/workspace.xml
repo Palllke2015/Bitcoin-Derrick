@@ -2,30 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b2bb77b-a0a6-45f1-8cab-c978682ac2cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/top_nav_bar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dashboard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/exchange/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/inventory/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/market/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/action/auth/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/action/miner/boost/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/action/miner/default_click/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/action/user_info/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/auth/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/miner/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/user_info/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/assets/scss/top_nav_bar/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/inventory_item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/action/miner/items/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/action/miner/items/pump/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/action/miner/items/tank/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/action/miner/mining/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/items/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/first_page/first_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/first_page/first_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/assets/scss/first_page/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/assets/scss/first_page/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/assets/scss/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/assets/scss/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/top_nav_bar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/top_nav_bar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/dashboard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/dashboard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/inventory/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/inventory/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/miner/boost/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action/miner/boost/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/action/miner/default_click/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/miner/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/miner/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/assets/scss/top_nav_bar/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/assets/scss/top_nav_bar/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,50 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/inventory/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/dashboard/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="225">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/redux/action/miner/boost/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="13" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/action/miner/default_click/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/reducers/miner/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/inventory_item/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <caret line="2" column="74" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -113,7 +77,6 @@
         <option value="$PROJECT_DIR$/src/redux/store/index.js" />
         <option value="$PROJECT_DIR$/src/redux/reducers/auth/index.js" />
         <option value="$PROJECT_DIR$/src/static/assets/scss/reset.scss" />
-        <option value="$PROJECT_DIR$/src/static/assets/scss/top_nav_bar/index.scss" />
         <option value="$PROJECT_DIR$/src/static/assets/scss/first_page/index.scss" />
         <option value="$PROJECT_DIR$/src/firebase/index.js" />
         <option value="$PROJECT_DIR$/src/redux/action/user_info/index.js" />
@@ -122,15 +85,23 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/containers/market/index.js" />
         <option value="$PROJECT_DIR$/src/containers/exchange/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/inventory/index.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/components/top_nav_bar/index.js" />
         <option value="$PROJECT_DIR$/src/redux/reducers/miner/default_click/index.js" />
-        <option value="$PROJECT_DIR$/src/redux/reducers/index.js" />
-        <option value="$PROJECT_DIR$/src/redux/action/miner/boost/index.js" />
         <option value="$PROJECT_DIR$/src/redux/action/miner/default_click/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/action/miner/boost/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/action/miner/start_mining/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/action/miner/items/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/action/miner/items/pump/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/action/miner/items/tank/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/redux/reducers/miner/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/items/index.js" />
         <option value="$PROJECT_DIR$/src/containers/dashboard/index.js" />
+        <option value="$PROJECT_DIR$/src/redux/action/miner/mining/index.js" />
+        <option value="$PROJECT_DIR$/src/components/top_nav_bar/index.js" />
+        <option value="$PROJECT_DIR$/src/static/assets/scss/top_nav_bar/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/inventory_item/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/inventory/index.js" />
       </list>
     </option>
   </component>
@@ -167,60 +138,21 @@
               <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
               <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory_item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
               <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="miner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="miner" type="462c0819:PsiDirectoryNode" />
-              <item name="boost" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-              <item name="miner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-              <item name="user_info" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
@@ -251,6 +183,15 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="first_page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bitcoin_derrick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bitcoin_derrick" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="top_nav_bar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,6 +245,7 @@
       <workItem from="1563451702328" duration="4949000" />
       <workItem from="1563527614874" duration="13080000" />
       <workItem from="1563612697562" duration="7165000" />
+      <workItem from="1563783972867" duration="8908000" />
     </task>
     <task id="LOCAL-00001" summary="readme change">
       <created>1563527860604</created>
@@ -316,7 +258,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30268000" />
+    <option name="totallyTimeSpent" value="39176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -421,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/assets/scss/top_nav_bar/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/static/assets/scss/first_page/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -497,68 +432,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action/miner/default_click/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action/miner/boost/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action/miner/items/pump/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="250">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/inventory/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="73" lean-forward="true" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/miner/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/top_nav_bar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action/miner/items/tank/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action/miner/items/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/miner/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/items/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/action/miner/mining/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/dashboard/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="200">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/action/miner/default_click/index.js">
+    <entry file="file://$PROJECT_DIR$/src/static/assets/scss/top_nav_bar/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+        <state relative-caret-position="175">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/action/miner/boost/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/top_nav_bar/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="13" selection-end-column="18" />
+        <state relative-caret-position="150">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/inventory_item/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="74" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/inventory/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

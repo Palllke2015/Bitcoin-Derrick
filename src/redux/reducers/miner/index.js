@@ -1,33 +1,29 @@
 const init = {
     count: 0,
-    level: 1,
-    boost: false,
-    boostDuration: 0,
-    boostRate: 1,
+    mining: false,
 };
 
 
 const miner = (state = init, action) => {
     switch (action.type) {
-        case 'DEFAULT_CLICK':
+        case 'MINING_START':
             return {
                 ...state,
-                count: state.count + action.count,
+                mining: true,
             };
 
-        case 'BOOST_START':
+        case 'MINING_SUCCESS':
             return {
                 ...state,
-                boost: true,
-                boostRate: action.rate
+                count: state.count + action.number
             };
 
-        case 'BOOST_END':
+        case 'MINING_END':
             return {
                 ...state,
-                boost: false,
-                boostRate: 1,
+                mining: false
             };
+
 
         default:
             return state;
