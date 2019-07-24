@@ -31,7 +31,7 @@ function App(props) {
             <TopNavBar/>
             <Switch>
                 <Route exact path="/" component={DashBoard} />
-                <Route exact path="/market" component={Market} />
+                <Route path="/market/:name?" component={Market} />
                 <Route exact path="/inventory" component={Inventory} />
                 <Route exact path="/exchange" component={Exchange} />
                 <Route render={()=> (

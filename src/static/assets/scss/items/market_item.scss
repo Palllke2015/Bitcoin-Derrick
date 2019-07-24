@@ -1,0 +1,60 @@
+.market-item {
+  display: flex;
+
+  & .img-wrapper {
+    width: 50%;
+
+    & img {
+      max-width: 90%;
+    }
+  }
+
+  & .description-wrapper {
+    margin-left: 25px;
+
+    & p {
+      margin: 15px 15px 15px 0;
+
+      & .value-name {
+        font-weight: 600;
+      }
+    }
+
+    & button {
+      width: 120px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid orange;
+      background: transparent;
+      cursor: pointer;
+      color: orange;
+      font-size: 20px;
+      font-weight: bold;
+      transition: all .3s ease-out;
+      border-radius: 5px;
+
+      &:hover {
+        background: orange;
+        color: #ffffff;
+        transition: all .3s ease-out;
+      }
+    }
+
+    & .select-wrapper {
+      display: flex;
+      margin-bottom: 10px;
+
+      & h4 {
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      & select {
+        margin-left: 10px;
+        font-size: 15px;
+      }
+    }
+  }
+}

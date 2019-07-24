@@ -1,0 +1,21 @@
+.market {
+  padding: 15px;
+  font-family: Roboto, sans-serif;
+
+  & h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: coral;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+
+  &-wrapper {
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    padding: 15px;
+  }
+}
+
+@import "../items/market_item";

@@ -10,7 +10,7 @@ export const Auth = () => {
             firebase.auth().signInWithPopup(new firebase.auth.GoogleAuthProvider())
                 .then((result) => {
                     dispatch(authUserSuccess(result.additionalUserInfo.profile));
-                    dispatch(getUserInfo('palllke.hliebov@gmail.com'));
+                    dispatch(getUserInfo(result.additionalUserInfo.profile.email));
                     if (result.additionalUserInfo.isNewUser) {
                         setNewUserInDataBase(result.additionalUserInfo.profile)
                     }

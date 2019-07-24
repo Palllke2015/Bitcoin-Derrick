@@ -1,7 +1,7 @@
-import React from 'react';
-import InventoryItem from '../../components/inventory_item'
+import React from 'react'
+import InventoryItem from '../../components/items/inventory-item'
 
-export default function Inventory() {
+function Inventory() {
     return (
         <div>
             <h2>Welcome to the Inventory. What do you want to Inventory?</h2>
@@ -10,6 +10,7 @@ export default function Inventory() {
                 descr={"It's very interesting thing."}
             />
         </div>
-
     )
-};
+}
+
+export default Inventory;
