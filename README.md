@@ -1,4 +1,7 @@
 
+#####Demo : [sss](https://bitcoin-derrick.web.app/#/)
+
+#####Trello: [Link](https://trello.com/b/51Rp5Gfd/bitcoin-derrick)
 
 ## Available Scripts
 
