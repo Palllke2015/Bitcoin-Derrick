@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function MarketItem({name,img, imgDescription, itemLvl, descr, resultFiltered}) {
+export default function MarketItem({name, resultFiltered}) {
 
     const [defaultChoose, changeDefaultChoose] = useState('1lvl');
     if (!name) {
@@ -8,8 +8,6 @@ export default function MarketItem({name,img, imgDescription, itemLvl, descr, re
     }
 
     const test = resultFiltered[Object.keys(resultFiltered).filter((elem) => elem === defaultChoose)];
-
-    console.log(test['descr'])
 
     const description = (obj) => {
         let array = [];

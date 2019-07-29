@@ -1,11 +1,22 @@
 import React from 'react'
 
-export default function InventoryItem({img, imgDescription, itemLvl, descr}) {
+export default function InventoryItem({link, descr}) {
     return(
         <div className='inventory-item'>
-            <span>LVL: {itemLvl}</span>
-            <img src={img} alt={imgDescription}/>
-            <p>{descr}</p>
+            <img src={link} alt='item'/>
+            <div>
+                {
+                    Object.keys(descr).map((elem) => {
+
+                        return (
+                            <p key={elem}>
+                                <b>{elem}</b>
+                                {`: ${descr[elem]}`}
+                            </p>
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }

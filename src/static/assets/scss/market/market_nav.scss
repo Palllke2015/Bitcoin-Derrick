@@ -1,0 +1,30 @@
+.market-nav {
+  height: auto;
+  margin-bottom: 10px;
+  display: flex;
+
+  & a {
+    padding: 10px;
+    background: grey;
+    text-decoration: none;
+    font-weight: 600;
+    color: whitesmoke;
+    border-right: 1px solid white;
+    transition: all .3s ease-out;
+    cursor: pointer;
+
+    &:hover {
+      background: orange;
+      transition: all .3s ease-out;
+
+    }
+
+    &.selected {
+      background: darkgreen;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

@@ -1,16 +1,27 @@
 import React from 'react'
 import InventoryItem from '../../components/items/inventory-item'
+import { connect } from 'react-redux'
 
-function Inventory() {
+import '../../static/assets/scss/inventory/index.scss'
+
+function Inventory({userInfo}) {
+
+    const items = userInfo.map((elem) => {
+        return <InventoryItem
+            key={elem.descr.name}
+            link={elem.link}
+            descr={elem.descr}
+        />
+    });
+
     return (
-        <div>
+        <div className='inventory'>
             <h2>Welcome to the Inventory. What do you want to Inventory?</h2>
-            <InventoryItem
-                itemLvl={1}
-                descr={"It's very interesting thing."}
-            />
+            {items}
         </div>
     )
 }
 
-export default Inventory;
+export default connect((store) => ({
+    userInfo: store.userInfo.user.items,
+}))(Inventory);

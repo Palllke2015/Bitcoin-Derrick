@@ -44,6 +44,24 @@ const setNewUserInDataBase = (userInfo) => {
         email: userInfo.email,
         id: userInfo.id,
         photo: userInfo.picture,
+        items:[{
+            descr: {
+                description: 'you can pump your bitcoin',
+                lvl: 1,
+                name: 'pump',
+                power: 1,
+            },
+            link: 'https://firebasestorage.googleapis.com/v0/b/bitcoin-derrick.appspot.com/o/pump-1.jpeg?alt=media&token=a2667b6a-91b7-437f-8ff7-c020bff38c55'
+        },
+            {
+                descr: {
+                    description: 'it\'s to collect your bitcoin',
+                    lvl: 1,
+                    name: 'tank',
+                    value: 80
+                },
+                link: 'https://firebasestorage.googleapis.com/v0/b/bitcoin-derrick.appspot.com/o/tank-lvl1.jpg?alt=media&token=02ca8e8b-76ce-4528-b466-eb7be3d4dd23'
+            }]
     })
         .then(function() {
             console.log("Document successfully written!");
